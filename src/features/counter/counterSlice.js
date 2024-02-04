@@ -1,4 +1,5 @@
-const { createSlice } = require("@reduxjs/toolkit");
+import { createSlice } from "@reduxjs/toolkit";
+
 
 
 export const counterSlice = createSlice({
@@ -18,4 +19,4 @@ export const counterSlice = createSlice({
 })
 
 export const {increment, decrement, reset}=counterSlice.actions;
-export default counterSlice.reducer;
+export default counterSlice.reducer
